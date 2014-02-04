@@ -1,0 +1,252 @@
+/**
+ * Colors:
+ *
+ * Page background: #ffefdd
+ * Red elements: #c21f1e
+ * Sidebar backround: #490400
+ *
+ */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffefdd;
+    color: #000;
+    font-family: Georgia, serif;
+}
+
+img {
+    border: none;
+}
+
+#container {
+    margin: 0 auto;
+    width: 838px;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0 5px 25px;
+    text-transform: uppercase;
+    font-size: 1em;
+    float: left;
+}
+    h1 a {
+        text-decoration: none;
+        display: block;
+        width: 180px;
+        text-align: center;
+    }
+    h1 strong {
+        font-family: "Georgia", serif;
+        font-weight: normal;
+        font-size: 40px;
+        display: block;
+        color: #c21f1e;
+        border-bottom: 2px groove gray;
+    }
+    h1 small {
+        font-size: 10px;
+        font-family: Arial, sans-serif;
+        display: block;
+        color: gray;
+        letter-spacing: 20px;
+        text-indent: 20px;
+        line-height: 17px;
+    }
+    h1 a:hover small {
+        color: black;
+    }
+
+
+/**
+ * Language menu
+ */
+#lang {
+    float: right;
+    padding: 70px 0 0 0;
+    margin: 0;
+    width: 110px;
+}
+    #lang li {
+        float: left;
+        list-style: none;
+        display: block;
+        padding: 0 5px;
+    }
+    #lang a,
+    #lang strong {
+        color: gray;
+        text-decoration: none;
+        font-size: 10px;
+        font-family: Arial, sans-serif;
+    }
+    #lang a:hover {
+        text-decoration: underline;
+    }
+    #lang strong {
+        font-weight: normal;
+        color: black;
+    }
+
+
+#nav {
+    clear: both;
+    padding-left: 28px;
+    background: url(img/nav-left.gif) no-repeat left;
+    height: 47px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+    #nav div {
+        padding-right: 28px;
+        background: url(img/nav-right.gif) no-repeat right;
+        height: 47px;
+    }
+    #nav ul {
+        background: #c21f1e;
+        height: 19px;
+        padding: 14px 0;
+        margin: 0;
+    }
+    #nav li {
+        display: block;
+        list-style: none;
+        float: left;
+        margin: 0;
+        line-height: 19px;
+        border-left: 1px dotted white;
+    }
+    #nav a,
+    #nav strong {
+        display: block;
+        padding: 0 7px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+    }
+    #nav a:hover {
+        color: yellow;
+    }
+    #nav strong {
+        font-weight: normal;
+        color: yellow;
+    }
+
+#edit-menu {
+    display: block;
+    margin: 0 9px 2px 9px;
+    padding: 0;
+    background-color: #c21f1e;
+    height: 16px;
+    font-size: 12px;
+    border-bottom: 1px solid black;
+}
+    #edit-menu li {
+        float: left;
+        padding-left: 1em;
+        display: block;
+        list-style-type: none;
+        margin: 0;
+    }
+    #edit-menu li strong {
+        display: block;
+        border: 1px solid black;
+        border-bottom-color: #ffefdd;
+        background-color: #ffefdd;
+        padding: 0 0.5em;
+        height: 15px;
+    }
+    #edit-menu li a {
+        display: block;
+        border: 1px solid black;
+        padding: 0 0.5em;
+        height: 15px;
+        text-decoration: none;
+        background-color: #d6b997;
+        color: #082d80;
+    }
+    #edit-menu a:visited {
+        color: #551a8b;
+    }
+    #edit-menu a:hover {
+        background-color: #e9cba8;
+    }
+    
+#body {
+    margin: 0 auto;
+    width: 820px;
+    background: url(img/sidebar.gif) repeat-y left;
+}
+
+#content {
+    float: right;
+    width: 520px;
+    padding: 10px 0 20px 20px;
+}
+    #content h2 {
+        color: #c21f1e;
+        font-weight: normal;
+        margin-bottom: 0.5em;
+    }
+    #content h3 {
+        color: #c21f1e;
+        font-size: 1em;
+        font-weight: normal;
+        margin-bottom: 0.4em;
+    }
+    #content textarea {
+        width: 100%;
+    }
+
+#sidebar {
+    float: left;
+    width: 280px;
+}
+    #sidebar #animation,
+    #sidebar #animation div {
+        background: gray;
+        height: 328px;
+    }
+
+    #sidebar h2 {
+        color: white;
+        font-weight: normal;
+        margin: 0;
+        padding: 20px 20px 5px 20px;
+    }
+    #sidebar ul {
+        color: white;
+        margin: 0;
+        padding: 0 0 20px 50px;
+    }
+    #sidebar ul a {
+        color: white;
+    }
+    #sidebar ul a:visited {
+        color: #eba6dd;
+    }
+    #sidebar ul a:hover {
+        color: yellow;
+    }
+
+#footer {
+    clear: both;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #333;
+    border-top: 1px solid black;
+    width: 820px;
+    margin: 0 auto;
+    line-height: 20px;
+    background: #ffefdd;
+    padding-bottom: 1em
+}
+    #footer a {
+        color: #ffefdd;
+    }
+    #footer a:hover {
+        color: #c21f1e;
+    }
+
+

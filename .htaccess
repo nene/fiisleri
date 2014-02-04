@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# RewriteBase  /fiisleri/
+
+# redirect
+RewriteRule  ^(?:(et|en|ru)/)?([^/]+)$ index.php?lang=$1&page=$2
+RewriteRule  ^(?:(et|en|ru)/)?([^/]+)/(edit|images|files|login|logout|settings)$ index.php?lang=$1&page=$2&action=$3
+</IfModule>
+
+php_flag magic_quotes_gpc Off

@@ -1,0 +1,11 @@
+<?php
+// Configuration settings
+
+define("BASE_URI", 'http://localhost/nene/fiisleri/');
+
+define("DB_NAME", 'kambja');
+define("DB_HOSTNAME", 'localhost');
+define("DB_USERNAME", '');
+define("DB_PASSWORD", '');
+
+?>
